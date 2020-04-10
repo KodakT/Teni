@@ -1,0 +1,128 @@
+#main {
+    margin: auto;
+    width: 80%;
+}
+body {
+    background: url(IMG_20190222_121926.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar {
+    width: 100%;
+    height: 40px;
+    background-color: #2b58c2;
+}
+#navbar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar li {
+    display: inline;
+    float: left;
+}
+#navbar a {
+    display: block;
+    padding: 10px 40px;
+    background-color: #2b58c2;
+    color: #ffffff;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #f64a5f;
+    font-weight: bold;
+}
+.session {
+    font-weight: bold;
+}
+#jumbotron {
+    height: 400px;;
+    background-color: royalblue;
+}
+#jumbotron img {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jumbotron h1 {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+#jumbotron p {
+    text-align: center;
+}
+.script {
+    font-family: 'Great Vibes', cursive;
+    background-color: steelblue;
+}
+#ribbon {
+    background: url(download.jpg);
+    height: 50px;
+    background-position: 20% 20%;
+}
+#content {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+}
+#left {
+    margin-right: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+#left img {
+    border-radius: 20px;
+}
+#right {
+    flex: 1;
+}
+#footer1 {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+#social {
+    float: right;
+}
+#social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#social li {
+    display: inline;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#footer2 {
+    height: 40px;
+    font-size: 15px;
+    background-color: blue;
+    text-align: center;
+    line-height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.input {
+    padding: 2px;
+    margin: 1px;
+    font-family: cursive;
+}
+#input button {
+    background-color: cyan;
+    color: red;
+    margin-top: 3px;
+    padding: 5px;
+}
+#input button:hover{
+    background-color: #f64a5f;
+    font-weight: bold;
+}
